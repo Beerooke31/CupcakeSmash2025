@@ -17,14 +17,21 @@ function popUp() {
 }
 ```
 
-Now we trigger our `popUp` function to run when the game starts, instead of adding a comment in the console log at the start of the game. 
+Now instead of adding a comment in the console log at the start of the game, we can trigger our `popUp` function to run when the game starts. Under where you first defined your startGame function, remove the line about the console log and add the popUp function trigger. 
+
+Note the different colours and +/- indicators in the code example below. This is instructing you to remove the console.log line, and add the popUp line.
 
 ```diff
 function startGame() {
 -	console.log('Game has started')
 + popUp()	
+}
+```
+The resulting code should look like this:
 
-	setTimeout(endGame, 10000)
+```js
+function startGame() {
+    popUp()	
 }
 ```
 
