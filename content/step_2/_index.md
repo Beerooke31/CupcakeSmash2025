@@ -42,4 +42,4 @@ function endGame() {
 
 In the bottom left corner of your Codepen, click on **Console** to open the console. Try clicking the **Start** button and wait a minute .and see what happens.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8238795d-fd9f-43ce-bda4-d747e98ba5cc/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8238795d-fd9f-43ce-bda4-d747e98ba5cc/Untitled.png)
+![](images/console_screenshot.png)
