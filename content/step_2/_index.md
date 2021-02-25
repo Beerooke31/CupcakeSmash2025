@@ -57,5 +57,5 @@ In the bottom left corner of your Codepen, click on **Console** to open the cons
 ![](images/console_screenshot.png)
 
 If you'd like to learn more about variables or functions (what we just used) you can read more about them in more detail here:  
-[variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
+[variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)  
 [functions](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
