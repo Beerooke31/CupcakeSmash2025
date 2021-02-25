@@ -24,14 +24,18 @@ Note the different colours and +/- indicators in the code example below. This is
 ```diff
 function startGame() {
 -	console.log('Game has started')
-+ popUp()	
++	popUp()	
+	
+	setTimeout(endGame, 10000)
 }
 ```
 The resulting code should look like this:
 
 ```js
 function startGame() {
-    popUp()	
+    popUp()
+    
+    setTimeout(endGame, 10000)
 }
 ```
 
