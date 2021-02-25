@@ -6,4 +6,6 @@ draft: false
 
 # Cupcake Smash
 
-<!-- TODO: Intro and context here -->
+Welcome to our International Women's Day tutorial! The She Codes team have collaborated with Robert Walters Group to bring you this fun (short) tutorial to give you a coding taster.  
+In this tutorial you will use a programming language called JavaScript to create a simple game called 'Cupcake Smash' - because at She Codes we firmly believe that coding is ALWAYS better with cupcakes!  
+Ready to get started?
