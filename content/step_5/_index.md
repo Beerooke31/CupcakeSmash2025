@@ -5,9 +5,11 @@ chapter = true
 pre = ""
 +++
 
-# Popping the cupcake back up
+# Popping the Cupcake Back Down
 
-We also need to get the cupcake to pop back down again, by removing the `up` class again. This time we're also going to pass our `hole` variable to the `popDown` function, so that it can remove the `up` class. Try changing the value of `time` and see what happens (this value is in milliseconds, so 500 milliseconds is 0.5 seconds).
+Now that we've got our cupcake jumping out of its hole, we also need to get the cupcake to pop back down again to make smashing it a little trickier! We do this by simply removing the `up` class we added earlier to our `popUp` function. 
+
+We're also going to set a time for how long we want the `up` class to stay with our little cupcake. Try changing the value of `time` and see what happens (this value is in milliseconds, so 500 milliseconds is 0.5 seconds).
 
 ```diff
 function popUp() {
@@ -22,7 +24,15 @@ function popUp() {
 }
 ```
 
-We also want to repeat the cupcake popping up until the time is up, so if time isn't up, it will trigger `popUp` to run again.
+Now that we have got our cupcake bobbing in and out, we want to repeat this over and over again until the time is up. We're going to use one of the most useful and powerful bits of programming to do this - the `if` statement. We can use this to check a condition and take a different action depending on whether it is true or false. A typical `if` statement in JavaScript looks something like this: (Note: you don't need to copy this code!)
+
+```JS
+if(condition == state) {
+action
+}
+```
+
+In our case, if the time we've allocated for our game (the value we set in the setTimeout line) is NOT false, our `if` statement should trigger `popUp` to run again.
 
 ```diff
 function popUp() {
