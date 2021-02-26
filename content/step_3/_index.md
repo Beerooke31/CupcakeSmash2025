@@ -1,6 +1,6 @@
 +++
-title = "Step 3"
-weight = 1
+title = "3. Cupcake Time"
+weight = 3
 chapter = true
 pre = ""
 +++
