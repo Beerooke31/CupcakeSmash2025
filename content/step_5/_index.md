@@ -1,13 +1,15 @@
 +++
-title = "Step 5"
-weight = 1
+title = "5. Don't Eat Me!"
+weight = 5
 chapter = true
 pre = ""
 +++
 
-# Popping the cupcake back up
+# Popping the Cupcake Back Down
 
-We also need to get the cupcake to pop back down again, by removing the `up` class again. This time we're also going to pass our `hole` variable to the `popDown` function, so that it can remove the `up` class. Try changing the value of `time` and see what happens (this value is in milliseconds, so 500 milliseconds is 0.5 seconds).
+Now that we've got our cupcake jumping out of its hole, we also need to get the cupcake to pop back down again to make smashing it a little trickier! We do this by simply removing the `up` class we added earlier to our `popUp` function. 
+
+We're also going to set a time for how long we want the `up` class to stay with our little cupcake. Try changing the value of `time` and see what happens (this value is in milliseconds, so 500 milliseconds is 0.5 seconds).
 
 ```diff
 function popUp() {
@@ -22,22 +24,10 @@ function popUp() {
 }
 ```
 
-We also want to repeat the cupcake popping up until the time is up, so if time isn't up, it will trigger `popUp` to run again.
+{{% notice tip %}}
+If your code doesn't work as expected, check your brackets! In JavaScript brackets should always have partners. This goes for parentheses(), square brackets[] and braces{}  - just count the left ones and make sure they all have a buddy.
+{{% /notice %}}
 
-```diff
-function popUp() {
-	let hole = holes[0]
-	let time = 500
-
-	hole.classList.add('up')
-
-	setTimeout(function() {
-		hole.classList.remove('up')
-
-+		if(timeUp == false) {
-+			popUp()
-+		}
-
-	}, time)
-}
-```
+<!---
+recommend adding a link here about what different bracket types are used for. Blog post on She Codes?
+-->
