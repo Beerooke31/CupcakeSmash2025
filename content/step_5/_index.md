@@ -1,6 +1,6 @@
 +++
-title = "Step 5"
-weight = 1
+title = "5. Don't Eat Me!"
+weight = 5
 chapter = true
 pre = ""
 +++
@@ -24,30 +24,9 @@ function popUp() {
 }
 ```
 
-Now that we have got our cupcake bobbing in and out, we want to repeat this over and over again until the time is up. We're going to use one of the most useful and powerful bits of programming to do this - the `if` statement. We can use this to check a condition and take a different action depending on whether it is true or false. A typical `if` statement in JavaScript looks something like this: (Note: you don't need to copy this code!)
+Pro Tip!  
+If your code doesn't work as expected, check your brackets! In JavaScript brackets should always have partners. This goes for parentheses(), square brackets[] and braces{}  - just count the left ones and make sure they all have a buddy.
 
-```JS
-if(condition == state) {
-action
-}
-```
-
-In our case, if the time we've allocated for our game (the value we set in the setTimeout line) is NOT false, our `if` statement should trigger `popUp` to run again.
-
-```diff
-function popUp() {
-	let hole = holes[0]
-	let time = 500
-
-	hole.classList.add('up')
-
-	setTimeout(function() {
-		hole.classList.remove('up')
-
-+		if(timeUp == false) {
-+			popUp()
-+		}
-
-	}, time)
-}
-```
+<!---
+recommend adding a link here about what different bracket types are used for. Blog post on She Codes?
+-->
