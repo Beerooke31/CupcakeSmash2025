@@ -1,5 +1,5 @@
 +++
-title = "Step 1"
+title = "1. Getting Started"
 weight = 1
 chapter = true
 pre = ""
