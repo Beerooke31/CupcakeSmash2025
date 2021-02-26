@@ -24,8 +24,9 @@ function popUp() {
 }
 ```
 
-Pro Tip!  
+{{% notice tip %}}
 If your code doesn't work as expected, check your brackets! In JavaScript brackets should always have partners. This goes for parentheses(), square brackets[] and braces{}  - just count the left ones and make sure they all have a buddy.
+{{% /notice %}}
 
 <!---
 recommend adding a link here about what different bracket types are used for. Blog post on She Codes?
