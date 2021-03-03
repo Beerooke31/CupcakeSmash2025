@@ -27,7 +27,7 @@ function popUp() {
 }
 ```
 
-The part of this code that determines which hole the cupcake pops up in is this line:
+The part of this code that determines where the cupcake pops up is this line:
 
 ```js
 let hole = holes[0];
