@@ -7,7 +7,7 @@ pre = ""
 
 # Creating our Variables
 
-To start off, we're going to grab some of the elements on the page, and save them in a [variable](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#what_is_a_variable) so we can access them easily later.  A variable is basically a container for storing a value where the contained value can change. 
+To start off, we're going to grab some of the elements on the page, and save them in a [variable](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#what_is_a_variable) so we can access them easily later. A variable is basically a container for storing a value where the contained value can change.
 
 We are going to be using some functions to get our variables, that enable us to create our variables based on the content on our page. In particular we'll be using the [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) and [`querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) functions. These use CSS selectors (don't worry if you don't know what that is!) so they can easily be used to reference HTML elements. The `querySelector` function will fetch the first element that matches our specified selector, and `querySelectorAll` will fetch all of the matching elements and return a list.
 
@@ -29,7 +29,7 @@ let scoreBoard = document.querySelector('.score');
 We're also going to define another variable that we'll be using later called `timeUp`, which we'll use to stop the game at the end of the allotted time. This will just be a true or false (also known as 'Boolean') variable and we are going to set it to false to start with.
 
 ```js
-let timeUp = false
+let timeUp = false;
 ```
 
 # Creating our Start & End Functions
@@ -38,17 +38,17 @@ Next we're going to create a function to run when someone clicks the **Start** b
 
 ```js
 function startGame() {
-	console.log('Game has started')
-	
-	setTimeout(endGame, 10000)
+    console.log('Game has started');
+
+    setTimeout(endGame, 10000);
 }
 ```
 
-We also need to define the `endGame` function, which is what runs after the setTimeout reaches your specified delay. For now we're also going to simply log a message to the console, like we did for `startGame`.
+We also need to define the `endGame` function, which is what runs after the `setTimeout` reaches your specified delay. For now we're also going to simply log a message to the console, like we did for `startGame`.
 
 ```js
 function endGame() {
-	console.log('Game has finished')
+    console.log('Game has finished');
 }
 ```
 

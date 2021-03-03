@@ -11,9 +11,9 @@ To properly mix everything up so our game isn't too predictable, we also want th
 
 ```js
 function randomTime(min, max) {
-	let time = Math.round(Math.random() * (max - min) + min)
+    let time = Math.round(Math.random() * (max - min) + min);
 
-	return time
+    return time;
 }
 ```
 
@@ -21,17 +21,17 @@ We can then use our `randomTime` function to randomly pick a time interval, once
 
 ```diff
 function popUp() {
-	let hole = randomHole(holes)
--	let time = 500
-+	let time = randomTime(200, 1000)
+	let hole = randomHole(holes);
+-	let time = 500;
++	let time = randomTime(200, 1000);
 
-	hole.classList.add('up')
+	hole.classList.add('up');
 
 	setTimeout(function() {
-		hole.classList.remove('up')
-	
+		hole.classList.remove('up');
+
 		if(timeUp == false) {
-				popUp()
+				popUp();
 		}
 	}, time)
 }
