@@ -20,7 +20,7 @@ Submit your customised game on LinkedIn, Twitter or Instagram with #IWDCodingCha
 -   Amazon vouchers
 -   A She Codes merchandise pack
 
-You can read the full #IWDCodingChallengeTerms and conditions here.
+You can read the full #IWDCodingChallengeTerms and conditions [here](http://robertwalters.com/iwdcodingchallenge).
 
 ## Style it baby
 
