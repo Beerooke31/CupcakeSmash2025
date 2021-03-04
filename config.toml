@@ -1,5 +1,4 @@
-# baseURL = "http://tutorial.shecodes.com.au/"
-baseURL = "https://iwdchallenge.netlify.app/"
+baseURL = "https://iwd.shecodes.com.au/"
 languageCode = "en-us"
 title = "SheCodes Australia Tutorials"
 theme = "she-codes"
