@@ -1,43 +1,45 @@
 +++
-title = "Step 5"
-weight = 1
+title = "5. Don't Eat Me!"
+weight = 5
 chapter = true
 pre = ""
 +++
 
-# Popping the cupcake back up
+# Popping the Cupcake Back Down
 
-We also need to get the cupcake to pop back down again, by removing the `up` class again. This time we're also going to pass our `hole` variable to the `popDown` function, so that it can remove the `up` class. Try changing the value of `time` and see what happens (this value is in milliseconds, so 500 milliseconds is 0.5 seconds).
+Now that we've got our cupcake jumping out of its hole, we also need to get the cupcake to pop back down again to make smashing it a little trickier! We do this by simply removing the `up` class we added earlier to our `popUp` function.
 
 ```diff
 function popUp() {
-	let hole = holes[0]
-+	let time = 500
+	let hole = holes[0];
+	hole.classList.add('up');
++	hole.classList.remove('up');
+}
+```
 
-	hole.classList.add('up')
+Press **Start**, what happens? Did you see the cupcake appear? Our code is running a little too fast for us to see! The cupcake is appearing and then immediately disappearing again, let's slow things down.
+
+We're going to set a time for how long we want the `up` class to stay with our little cupcake.
+
+```diff
+function popUp() {
+	let hole = holes[0];
++	let time = 500;
+
+	hole.classList.add('up');
 
 +	setTimeout(function() {
-+		hole.classList.remove('up')
+		hole.classList.remove('up');
 + }, time)
 }
 ```
 
-We also want to repeat the cupcake popping up until the time is up, so if time isn't up, it will trigger `popUp` to run again.
+You should now be able to see the cupcake appearing and disappearing when you start the game.
 
-```diff
-function popUp() {
-	let hole = holes[0]
-	let time = 500
+Try changing the value of `time` and see what happens (this value is in milliseconds, so 500 milliseconds is 0.5 seconds).
 
-	hole.classList.add('up')
+{{% notice tip %}}
 
-	setTimeout(function() {
-		hole.classList.remove('up')
+If your code doesn't work as expected, check your brackets! In JavaScript brackets should always have partners. This goes for parentheses(), square brackets[] and braces{} - just count the left ones and make sure they all have a buddy.
 
-+		if(timeUp == false) {
-+			popUp()
-+		}
-
-	}, time)
-}
-```
+{{% /notice %}}
