@@ -26,3 +26,30 @@ function startGame() {
 	setTimeout(endGame, 10000);
 }
 ```
+
+## Check your code!
+
+This is what you should have in CodePen so far:
+
+```js
+let timeUp = false;
+let holes = document.querySelectorAll('.hole');
+let scoreBoard = document.querySelector('.score');
+
+function startGame() {
+    timeUp = false;
+    popUp();
+
+    setTimeout(endGame, 10000);
+}
+
+function endGame() {
+    timeUp = true;
+}
+
+function popUp() {
+    let hole = holes[0];
+
+    hole.classList.add('up');
+}
+```
