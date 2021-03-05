@@ -5,6 +5,8 @@ chapter = true
 pre = ""
 +++
 
+# What If?
+
 Now that we have got our cupcake bobbing in and out, we want to repeat this over and over again until the time is up. We're going to use one of the most useful and powerful bits of programming to do this - the `if` statement. We can use this to check a condition and take a different action depending on whether it is `true` or `false`.
 
 ```diff
