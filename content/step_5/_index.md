@@ -43,3 +43,35 @@ Try changing the value of `time` and see what happens (this value is in millisec
 If your code doesn't work as expected, check your brackets! In JavaScript brackets should always have partners. This goes for parentheses(), square brackets[] and braces{} - just count the left ones and make sure they all have a buddy.
 
 {{% /notice %}}
+
+## Check your code!
+
+This is what you should have in CodePen so far:
+
+```js
+let timeUp = false;
+let holes = document.querySelectorAll('.hole');
+let scoreBoard = document.querySelector('.score');
+
+function startGame() {
+    timeUp = false;
+    popUp();
+
+    setTimeout(endGame, 10000);
+}
+
+function endGame() {
+    timeUp = true;
+}
+
+function popUp() {
+    let hole = holes[0];
+    let time = 500;
+
+    hole.classList.add('up');
+
+    setTimeout(function () {
+        hole.classList.remove('up');
+    }, time);
+}
+```

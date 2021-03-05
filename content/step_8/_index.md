@@ -35,7 +35,11 @@ The part of this code that determines where the cupcake pops up is this line:
 let hole = holes[0];
 ```
 
-Remember right back at the start when we created our `holes` variable? In that step we looked for every hole element on the page, and stored in this `holes` variable. The `[0]` in `holes[0]` is what tells JavaScript to just get the first hole on the page.
+Remember right back at the start when we created our `holes` variable? (We wrote a line that looked like:
+
+`let holes = document.querySelectorAll('.hole');`
+
+In that step we looked for every hole element on the page, and stored in this `holes`variable. The`[0]`in`holes[0]` is what tells JavaScript to just get the first hole on the page.
 
 {{% notice tip %}}
 

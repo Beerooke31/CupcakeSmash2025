@@ -9,18 +9,26 @@ pre = ""
 
 Congratulations, you now have a fully functioning game!
 
-But your coding journey doesn’t have to stop here - JavaScript is an immensely powerful coding language and there are dozens of ways you could customise or improve your game.
-
-Try out some of our suggestions below or add your own coding flair.
-
 Submit your customised game on LinkedIn, Twitter or Instagram with #IWDCodingChallenge and tag Robert Walters Group & She Codes for a chance to win:
 
 -   A 1:1 mentoring session with She Codes Founder, Kate Kirwin
 -   Tailored careers advice from a Robert Walters Group tech recruitment specialist
--   Amazon vouchers
+-   $300 Amazon vouchers
 -   A She Codes merchandise pack
 
-You can read the full #IWDCodingChallengeTerms and conditions [here](http://robertwalters.com/iwdcodingchallenge).
+Our tags are:
+
+-   LinkedIn [@robertwalters](https://www.linkedin.com/company/robert-walters/) [@shecodesaustralia](https://www.linkedin.com/company/shecodesaustralia/)
+-   Instagram [@robertwalterslife](https://www.instagram.com/robertwalterslife) [@shecodesaus](https://www.instagram.com/shecodesaus/)
+-   Twitter [@RobertWaltersPR](https://twitter.com/RobertWaltersPR) [@shecodesaus](https://twitter.com/shecodesaus)
+
+You can read the full #IWDCodingChallengeTerms and conditions [here](https://www.robertwaltersgroup.com/sustainability/diversity/international-womens-day-2021-coding-challenge/iwd-2021-terms-and-conditions.html).
+
+# Don't stop!
+
+But your coding journey doesn’t have to stop here - JavaScript is an immensely powerful coding language and there are dozens of ways you could customise or improve your game.
+
+Try out some of our suggestions below or add your own coding flair.
 
 ## Style it baby
 

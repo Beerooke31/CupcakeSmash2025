@@ -11,7 +11,8 @@ To start off, we're going to grab some of the elements on the page, and save the
 
 {{% notice tip %}}
 
-An 'element' as a specific part of the page. For example, the heading text and start button are both elements. Elements are defined using HTML (feel free to unfold the HTML section on CodePen and have a peak!).
+An 'element' as a specific part of the page. For example, the heading text and start button are both elements. Elements are defined using HTML, feel free to unfold the HTML section on CodePen and have a peak! The screenshot below shows where to click and drag to unfold the HTML editor:
+![](images/codepen_expand_editor.png)
 
 {{% /notice %}}
 
@@ -68,7 +69,7 @@ Earlier, we mentioned that JavaScript has built in functions, but we can actuall
 
 We're going to create a function called `startGame` and this is goingn to run everytime the user clicks the **Start** button.
 
-When we created the HTML code in the template, we actually already instructed the button to run this function when it is clicked (feel free to peek at the HTML code and see this for yourself). All you need to do is actually create the function, and tell it what to do. For now we're going to ask it to show us a message when the game has started.
+When we created the HTML code in the template, we actually already instructed the button to run this function when it is clicked, feel free to peek at the HTML code and see this for yourself. All you need to do is actually create the function, and tell it what to do. For now we're going to ask it to show us a message when the game has started.
 
 Add the following to your JavaScript code in CodePen to create your function:
 
@@ -92,12 +93,6 @@ function endGame() {
 
 To start the game we press the **Start** button. To then end the game, we will trigger our new `endGame` function from the `startGame` function. We'll use [`setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout) to do this. This will trigger `endGame` after a delay of 10000ms.
 
-{{% notice info %}}
-
-Note the different colours and `+` indicator in the code example above. This is instructing you to add the `setTimeout` line to your existing `startGame` function, but without the `+` symbol. If you're not sure what to do, the completed code up to this point is provided at the end of this page.
-
-{{% /notice %}}
-
 ```diff
 function startGame() {
     console.log('Game has started');
@@ -105,6 +100,12 @@ function startGame() {
 +    setTimeout(endGame, 10000);
 }
 ```
+
+{{% notice info %}}
+
+Note the different colours and `+` indicator in the code example above. This is instructing you to add the `setTimeout` line to your existing `startGame` function, but without the `+` symbol. If you're not sure what to do, the completed code up to this point is provided at the end of this page.
+
+{{% /notice %}}
 
 Click the **Start** button again. This time you should see the start message appear, and then a minute later the end message will appear.
 
