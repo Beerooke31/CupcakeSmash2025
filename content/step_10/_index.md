@@ -46,4 +46,4 @@ However you customise your game, we hope you've enjoyed learning with She Codes.
 
 Good luck, coder!
 
-![](images/final_screenshot.png)
+![](images/logos.png)
