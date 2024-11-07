@@ -1,13 +1,13 @@
 +++
-title = "3. Cupcake Time"
+title = "3. Diamonds are Forever"
 weight = 3
 chapter = true
 pre = ""
 +++
 
-# Popping Up Cupcakes
+# Popping Up Diamonds
 
-Next we want to create a function to pop our cupcakes up out of the holes. There's CSS styling already set up for most of this so the cupcakes will appear with some pizazz, so we just need to add a class to one of our holes to make the cupcake appear. This will take the first hole from the list we saved earlier, and add the class of `up` to it (which will then do some CSS magic). Add the following to the bottom of your JavaScript code:
+Next we want to create a function to pop our diamonds up out of the holes. There's CSS styling already set up for most of this so the diamonds will appear all shiny, so we just need to add a class to one of our holes to make the diamonds appear. This will take the first hole from the list we saved earlier, and add the class of `up` to it (which will then do some CSS magic). Add the following to the bottom of your JavaScript code:
 
 ```js
 function popUp() {

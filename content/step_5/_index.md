@@ -1,13 +1,13 @@
 +++
-title = "5. Don't Eat Me!"
+title = "5. Can't Catch Me!"
 weight = 5
 chapter = true
 pre = ""
 +++
 
-# Popping the Cupcake Back Down
+# Popping the Diamond Back Down
 
-Now that we've got our cupcake jumping out of its hole, we also need to get the cupcake to pop back down again to make smashing it a little trickier! We do this by simply removing the `up` class we added earlier to our `popUp` function.
+Now that we've got our diamond jumping out of its hole, we also need to get the diamond to pop back down again to make smashing it a little trickier! We do this by simply removing the `up` class we added earlier to our `popUp` function.
 
 ```diff
 function popUp() {
@@ -17,9 +17,9 @@ function popUp() {
 }
 ```
 
-Press **Start**, what happens? Did you see the cupcake appear? Our code is running a little too fast for us to see! The cupcake is appearing and then immediately disappearing again, let's slow things down.
+Press **Start**, what happens? Did you see it appear? Our code is running a little too fast for us to see! The diamond is appearing and then immediately disappearing again, let's slow things down.
 
-We're going to set a time for how long we want the `up` class to stay with our little cupcake.
+We're going to set a time for how long we want the `up` class to stay with our diamond.
 
 ```diff
 function popUp() {
@@ -34,7 +34,7 @@ function popUp() {
 }
 ```
 
-You should now be able to see the cupcake appearing and disappearing when you start the game.
+You should now be able to see the diamond appearing and disappearing when you start the game.
 
 Try changing the value of `time` and see what happens (this value is in milliseconds, so 500 milliseconds is 0.5 seconds).
 

@@ -12,7 +12,7 @@ Its world domination... ish.
 
 A preview of the end result is below:
 
-![](images/cupcake_smash.gif)
+![](images/full_game.gif)
 
 Ready to get started? Awesome! Proceed to Step 1.
 

@@ -1,13 +1,13 @@
 +++
-title = "7. That's so random"
+title = "7. That's so Random"
 weight = 7
 chapter = true
 pre = ""
 +++
 
-# Randomising the Cupcakes
+# Randomising the Diamonds
 
-We obviously don't want the cupcake to always pop up in the first hole, because that would make for a pretty boring (and easy) game! Instead we'll create a new function to randomly pick which hole the cucpcake will appear in.
+We obviously don't want the diamond to always pop up in the first hole, because that would make for a pretty boring (and easy) game! Instead we'll create a new function to randomly pick which hole the cucpcake will appear in.
 
 At the moment our `popUp` function looks like this:
 
@@ -29,13 +29,13 @@ function popUp() {
 }
 ```
 
-The part of this code that determines where the cupcake pops up is this line:
+The part of this code that determines where the diamond pops up is this line:
 
 ```js
 let hole = holes[0];
 ```
 
-Remember right back at the start when we created our `holes` variable? (We wrote a line that looked like:
+Remember right back at the start when we created our `holes` variable? We wrote a line that looked like:
 
 `let holes = document.querySelectorAll('.hole');`
 
@@ -61,7 +61,7 @@ function randomHole(holes) {
 }
 ```
 
-We then need to update our `popUp` function to run our new `randomHole` function each time the cupcake pops up, instead of always referring to the first hole:
+We then need to update our `popUp` function to run our new `randomHole` function each time the diamond pops up, instead of always referring to the first hole:
 
 ```diff
 function popUp() {
@@ -81,7 +81,7 @@ function popUp() {
 }
 ```
 
-Now when you hit **Start**, you should see your cupcakes popping up everywhere!
+Now when you hit **Start**, you should see your diamonds popping up everywhere!
 
 ## Check your code!
 
@@ -124,5 +124,13 @@ function randomHole(holes) {
     let hole = holes[holeNumber];
 
     return hole;
+}
+
+function smash(diamond) {
+    console.log('smashed!');
+
+    diamond.parentNode.classList.remove('up');
+    score = score + 1;
+    scoreBoard.textContent = score;
 }
 ```
