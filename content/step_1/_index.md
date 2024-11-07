@@ -17,7 +17,7 @@ We've put together a template that already has a lot of the game elements and st
 
 To create your own copy of the game to work with, click the **Fork** button in the bottom right corner in CodePen (see the screenshot below). This will let you save your own copy of DDDiamond Smash so you can come back to it and share it.
 
-![](images/fork_button.png)
+![](images/fork.png)
 
 Once you have your own fork of the template in CodePen, we can start adding our JavaScript code.
 
