@@ -6,10 +6,10 @@
 
 To start off, we're going to grab some of the elements on the page, and save them in a variable so we can access them easily later.
 
-> **notice tip**
+> **Tip**
 
-An 'element' as a specific part of the page. For example, the heading text and start button are both elements. Elements are defined using HTML, feel free to unfold the HTML section on CodePen and have a peak! The screenshot below shows where to click and drag to unfold the HTML editor:
-![](images/expand_editor.png)
+> An 'element' as a specific part of the page. For example, the heading text and start button are both elements. Elements are defined using HTML, feel free to unfold the HTML section on CodePen and have a peak! The screenshot below shows where to click and drag to unfold the HTML editor:
+> ![](images/expand_editor.png)
 
 {{% /notice %}}
 
