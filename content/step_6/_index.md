@@ -1,9 +1,9 @@
-+++
+---
 title = "8. SMASH IT"
 weight = 8
 chapter = true
 pre = ""
-+++
+---
 
 # Smashing the cupcakes
 

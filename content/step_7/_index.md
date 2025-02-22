@@ -1,9 +1,9 @@
-+++
+---
 title = "9. Keeping Score"
 weight = 9
 chapter = true
 pre = ""
-+++
+---
 
 # Keeping Score
 

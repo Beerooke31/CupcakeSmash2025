@@ -1,9 +1,9 @@
-+++
+---
 title = "2. Variables & Functions"
 weight = 2
 chapter = true
 pre = ""
-+++
+---
 
 # Creating our Variables
 

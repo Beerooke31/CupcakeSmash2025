@@ -1,9 +1,9 @@
-+++
+---
 title = "6. What If..?"
 weight = 6
 chapter = true
 pre = ""
-+++
+---
 
 # What If?
 

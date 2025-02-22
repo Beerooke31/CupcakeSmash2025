@@ -1,8 +1,5 @@
 ---
-#"1. Getting Started"
-weight = 1
-chapter = true
-pre = ""
+'1. Getting Started'
 ---
 
 # What we're doing
