@@ -30,7 +30,7 @@ Try out some of our suggestions below or add your own coding flair.
 
 ## Style it baby
 
-If you already understand a little HTML & CSS, you can add some of your own styling, or even a tagline with your name to your game so that everyone who sees it knows who the creator was! You could also add some additional animation to the 'smash' (clicking on the diamond) with some kind of explosion or graphic.
+If you already understand a little HTML & CSS, you can add some of your own styling, or even a tagline with your name to your game so that everyone who sees it knows who the creator was! You could also add some additional animation to the 'smash' (clicking on the cupcake) with some kind of explosion or graphic.
 
 ## Next Level
 
@@ -38,7 +38,7 @@ Why stop at 10 seconds? You could create multiple levels with variations each ti
 
 ## Variable Scoring
 
-You might have noticed that there are different cupcakes that display - you could randomise which diamond shows each time, and give the different cupcakes a different number of points each. You could also introduce decoys - maybe you lose points if you accidentally click a different gem instead of a diamond!
+You might have noticed that there are different cupcakes that display - you could randomise which cupcake shows each time, and give the different cupcakes a different number of points each. You could also introduce decoys - maybe you lose points if you accidentally click a different gem instead of a cupcake!
 
 However you customise your game, we hope you've enjoyed learning with She Codes. You can view [our growing list of free tutorials here](https://shecodes.com.au/tutorials) if you'd like to try your hand at something else.
 

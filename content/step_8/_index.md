@@ -7,7 +7,7 @@ pre = ""
 
 # Randomising the cupcakes
 
-We obviously don't want the diamond to always pop up in the first hole, because that would make for a pretty boring (and easy) game! Instead we'll create a new function to randomly pick which hole the cucpcake will appear in.
+We obviously don't want the cupcake to always pop up in the first hole, because that would make for a pretty boring (and easy) game! Instead we'll create a new function to randomly pick which hole the cucpcake will appear in.
 
 At the moment our `popUp` function looks like this:
 
@@ -29,7 +29,7 @@ function popUp() {
 }
 ```
 
-The part of this code that determines where the diamond pops up is this line:
+The part of this code that determines where the cupcake pops up is this line:
 
 ```js
 let hole = holes[0];
@@ -61,7 +61,7 @@ function randomHole(holes) {
 }
 ```
 
-We then need to update our `popUp` function to run our new `randomHole` function each time the diamond pops up, instead of always referring to the first hole:
+We then need to update our `popUp` function to run our new `randomHole` function each time the cupcake pops up, instead of always referring to the first hole:
 
 ```diff
 function popUp() {
@@ -126,10 +126,10 @@ function randomHole(holes) {
     return hole;
 }
 
-function smash(diamond) {
+function smash(cupcake) {
     console.log('smashed!');
 
-    diamond.parentNode.classList.remove('up');
+    cupcake.parentNode.classList.remove('up');
     score = score + 1;
     scoreBoard.textContent = score;
 }

@@ -7,7 +7,7 @@ pre = ""
 
 # Randomising the time
 
-To properly mix everything up so our game isn't too predictable, we also want the cupcakes to stay up for a random period of time rather than always for 500ms (or maybe 1000ms if our random number generator picks the same diamond twice).
+To properly mix everything up so our game isn't too predictable, we also want the cupcakes to stay up for a random period of time rather than always for 500ms (or maybe 1000ms if our random number generator picks the same cupcake twice).
 
 To do this we'll write a function which will take a minimum and a maximum value, and randomly choose a number between the two. At the bottom of your code, let's add a new function called `randomTime`:
 
@@ -87,10 +87,10 @@ function randomHole(holes) {
     return hole;
 }
 
-function smash(diamond) {
+function smash(cupcake) {
     console.log('smashed!');
 
-    diamond.parentNode.classList.remove('up');
+    cupcake.parentNode.classList.remove('up');
     score = score + 1;
     scoreBoard.textContent = score;
 }
