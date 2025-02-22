@@ -1,9 +1,9 @@
-+++
+---
 title = "4. Game OVER"
 weight = 4
 chapter = true
 pre = ""
-+++
+---
 
 # Ending the Game
 
