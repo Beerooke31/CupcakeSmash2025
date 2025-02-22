@@ -19,7 +19,7 @@ Our tags are:
 
 -   LinkedIn [@shecodesaustralia](https://www.linkedin.com/company/shecodesaustralia/)
 -   Instagram [@shecodesaus](https://www.instagram.com/shecodesaus/)
-  
+
 And DDD Perth are on LinkedIn [@DDDPerth](https://www.linkedin.com/company/ddd-perth)
 
 # Don't stop!
@@ -38,7 +38,7 @@ Why stop at 10 seconds? You could create multiple levels with variations each ti
 
 ## Variable Scoring
 
-You might have noticed that there are different diamonds that display - you could randomise which diamond shows each time, and give the different diamonds a different number of points each. You could also introduce decoys - maybe you lose points if you accidentally click a different gem instead of a diamond!
+You might have noticed that there are different cupcakes that display - you could randomise which diamond shows each time, and give the different cupcakes a different number of points each. You could also introduce decoys - maybe you lose points if you accidentally click a different gem instead of a diamond!
 
 However you customise your game, we hope you've enjoyed learning with She Codes. You can view [our growing list of free tutorials here](https://shecodes.com.au/tutorials) if you'd like to try your hand at something else.
 

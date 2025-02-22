@@ -7,7 +7,7 @@ pre = ""
 
 # Randomising the time
 
-To properly mix everything up so our game isn't too predictable, we also want the diamonds to stay up for a random period of time rather than always for 500ms (or maybe 1000ms if our random number generator picks the same diamond twice).
+To properly mix everything up so our game isn't too predictable, we also want the cupcakes to stay up for a random period of time rather than always for 500ms (or maybe 1000ms if our random number generator picks the same diamond twice).
 
 To do this we'll write a function which will take a minimum and a maximum value, and randomly choose a number between the two. At the bottom of your code, let's add a new function called `randomTime`:
 
@@ -39,7 +39,7 @@ function popUp() {
 }
 ```
 
-Now run your game again, and you should see the diamonds are a lot less predictable!
+Now run your game again, and you should see the cupcakes are a lot less predictable!
 
 ## Check your code!
 

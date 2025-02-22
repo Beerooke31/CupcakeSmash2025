@@ -7,7 +7,7 @@ pre = ""
 
 # Ending the Game
 
-Before we go too much further with our diamonds, let's edit the `endGame` function we created earlier so that instead of publishing a message to the console, it changes the value stored in our `timeUp` variable to `true.`
+Before we go too much further with our cupcakes, let's edit the `endGame` function we created earlier so that instead of publishing a message to the console, it changes the value stored in our `timeUp` variable to `true.`
 
 ```diff
 function endGame() {

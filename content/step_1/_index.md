@@ -1,21 +1,21 @@
-+++
-title = "1. Getting Started"
+---
+#"1. Getting Started"
 weight = 1
 chapter = true
 pre = ""
-+++
+---
 
 # What we're doing
 
-We're building a game called DDDiamond Smash using a programming language called Javascript.
+We're building a game called Cupcake Smash using a programming language called Javascript.
 
-To build DDDiamond Smash, we're using an online tool called CodePen, which is a platform that makes it easy to build and experiment with HTML, CSS and JavaScript, without needing to download or set up any special software.
+To build Cupcake Smash, we're using an online tool called CodePen, which is a platform that makes it easy to build and experiment with HTML, CSS and JavaScript, without needing to download or set up any special software.
 
 You will need a CodePen account to build your own game, head over there now to [create your free account](https://codepen.io).
 
-We've put together a template that already has a lot of the game elements and styles set up - we just need to write the JavaScript to get it working! [Click here to get the template](https://codepen.io/shecodesaus/pen/YzmJoZq/right?editors=0010). 
+We've put together a template that already has a lot of the game elements and styles set up - we just need to write the JavaScript to get it working! [Click here to get the template](https://codepen.io/shecodesaus/pen/YzmJoZq/right?editors=0010).
 
-To create your own copy of the game to work with, click the **Fork** button in the bottom right corner in CodePen (see the screenshot below). This will let you save your own copy of DDDiamond Smash so you can come back to it and share it.
+To create your own copy of the game to work with, click the **Fork** button in the bottom right corner in CodePen (see the screenshot below). This will let you save your own copy of Cupcake Smash so you can come back to it and share it.
 
 ![](images/fork.png)
 

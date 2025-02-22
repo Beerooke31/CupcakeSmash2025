@@ -5,12 +5,12 @@ chapter = true
 pre = ""
 +++
 
-# Smashing the diamonds
+# Smashing the cupcakes
 
-Now that our diamonds are merrily popping up and down, let's write a function to 'smash' them!
+Now that our cupcakes are merrily popping up and down, let's write a function to 'smash' them!
 
 To do this, we're going to create another function called `smash` to run whenever a diamond is clicked. When this happens, we also want to remove the `up` class from the hole the diamond is in so that the smashed diamond pops down again.
- 
+
 Add the following function to the bottom of your code:
 
 ```js
@@ -21,7 +21,7 @@ function smash(diamond) {
 }
 ```
 
-When we created the HTML code in the template, we actually already instructed the button to run this function when it is clicked (feel free to peek at the HTML code and see this for yourself). Press **Start** and start smashing diamonds! Whenever you click a diamond it will disappear again, and a message will appear in the console.
+When we created the HTML code in the template, we actually already instructed the button to run this function when it is clicked (feel free to peek at the HTML code and see this for yourself). Press **Start** and start smashing cupcakes! Whenever you click a diamond it will disappear again, and a message will appear in the console.
 
 {{% notice tip %}}
 

@@ -5,7 +5,7 @@ chapter = true
 pre = ""
 +++
 
-# Randomising the Diamonds
+# Randomising the cupcakes
 
 We obviously don't want the diamond to always pop up in the first hole, because that would make for a pretty boring (and easy) game! Instead we'll create a new function to randomly pick which hole the cucpcake will appear in.
 
@@ -81,7 +81,7 @@ function popUp() {
 }
 ```
 
-Now when you hit **Start**, you should see your diamonds popping up everywhere!
+Now when you hit **Start**, you should see your cupcakes popping up everywhere!
 
 ## Check your code!
 

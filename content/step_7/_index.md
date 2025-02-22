@@ -7,7 +7,7 @@ pre = ""
 
 # Keeping Score
 
-Now that we can catch our diamonds, we want to be able to keep track of how many we've smashed!
+Now that we can catch our cupcakes, we want to be able to keep track of how many we've smashed!
 
 To keep track of the score we're going to update the number in the scoreboard, which we set as a variable right at the start.
 
