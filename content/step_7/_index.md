@@ -1,17 +1,14 @@
 ---
-title = "9. Keeping Score"
-weight = 9
-chapter = true
-pre = ""
+# 7. Keeping Score
 ---
 
-# Keeping Score
+# Keeping Score - Count those Cupcakes!
 
-Now that we can catch our cupcakes, we want to be able to keep track of how many we've smashed!
+Now that you're smashing cupcakes like a pro, it's time to keep track of your epic cupcake-smashing score! Every time you whack a cupcake, you earn a point. Let’s add a scoring system that updates in real-time on your scoreboard.
 
-To keep track of the score we're going to update the number in the scoreboard, which we set as a variable right at the start.
+> Remember, right at the start we set the variable `scoreBoard`.
 
-We're going to create another variable (this time called `score`) that starts at zero, and increases by one each time a cupcake is successfully smashed.
+Now we're going to create another variable (this time called `score`) that starts at zero, and increases by one each time a cupcake is successfully smashed. This is your personal cupcake smash counter!
 
 ```diff
 let scoreBoard = document.querySelector('.score');
@@ -25,6 +22,13 @@ function smash(cupcake) {
 }
 ```
 
+<p align="start">
+<img src=../step_2/plain_cupcake.svg width="20">
+<img src=../step_2/plain_cupcake.svg width="20">
+</p>
+
+> Can you see the `smash` function? In this function, every time a cupcake is hit, we add 1 to the score.
+
 We're also going to tell our `scoreBoard` variable to show `score` whenever it is increased. To update `scoreBoard` we will use the [`textContent`](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent) property.
 
 ```diff
@@ -37,9 +41,13 @@ function smash(cupcake) {
 }
 ```
 
+<p align="start">
+<img src=../step_2/shecodes_cupcake.svg width="20">
+</p>
+
 **Start** the game and watch your score increase everytime you smash a cupcake!
 
-Each time we restart the game, we also want to reset the score back to zero, so we can start again from scratch.
+> **Resetting the score:** Each time we restart the game, we also want to reset the score back to zero, so we can start again from scratch.
 
 ```diff
 function startGame() {
@@ -54,6 +62,12 @@ function startGame() {
 ```
 
 Now each time you click **Start** you should see the score reset to zero.
+
+<p align="start">
+<img src=../step_2/shecodes_cupcake.svg width="20">
+<img src=../step_2/shecodes_cupcake.svg width="20">
+<img src=../step_2/shecodes_cupcake.svg width="20">
+</p>
 
 ## Check your code!
 
