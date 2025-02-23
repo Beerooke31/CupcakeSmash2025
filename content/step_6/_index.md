@@ -83,3 +83,6 @@ function smash(cupcake) {
     cupcake.parentNode.classList.remove('up');
 }
 ```
+
+### Console Celebrations:
+The `console.log('smashed!')` line is a fun way to celebrate your cupcake-smashing skills. Check out your console (remember, in CodePen's bottom left) to see the feedback each time you smash a cupcake.
