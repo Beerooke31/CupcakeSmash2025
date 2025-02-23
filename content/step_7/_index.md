@@ -23,8 +23,7 @@ function smash(cupcake) {
 ```
 
 <p align="start">
-<img src=../step_2/plain_cupcake.svg width="20">
-<img src=../step_2/plain_cupcake.svg width="20">
+<img src=../step_2/shecodes_cupcake.svg width="20">
 </p>
 
 > Can you see the `smash` function? In this function, every time a cupcake is hit, we add 1 to the score.
@@ -40,9 +39,9 @@ function smash(cupcake) {
 +	scoreBoard.textContent = score;
 }
 ```
-
 <p align="start">
-<img src=../step_2/shecodes_cupcake.svg width="20">
+<img src=../step_2/plain_cupcake.svg width="20">
+<img src=../step_2/plain_cupcake.svg width="20">
 </p>
 
 **Start** the game and watch your score increase everytime you smash a cupcake!
