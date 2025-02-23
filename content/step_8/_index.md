@@ -1,11 +1,8 @@
 ---
-title = "7. That's so Random"
-weight = 7
-chapter = true
-pre = ""
+# 7. That's so random!
 ---
 
-# Randomising the cupcakes
+## Randomising the cupcakes
 
 We obviously don't want the cupcake to always pop up in the first hole, because that would make for a pretty boring (and easy) game! Instead we'll create a new function to randomly pick which hole the cucpcake will appear in.
 
