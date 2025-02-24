@@ -1,45 +1,54 @@
 ---
-title = "11. Choose Your Own Adventure!"
-weight = 11
-chapter = true
-pre = ""
+# 10. Choose Your Own Adventure!
 ---
 
-# All Finished!
+## All Finished! Congratulations Coder!
 
-Congratulations, you now have a fully functioning game!
+Congratulations, you have built a fully functioning Cupcake Smash game! And that's something to be really proud of!
 
-How did it feel?
+How did it feel see your game come to life?
 
-From here, if you want the chance for your game to be displayed at our stall at DDD Perth on Saturday November 16th, submit your game to us via [this form](https://shecodes.activehosted.com/f/37). Our favourites will be picked and be ready for playing on the day of the conference.
-
-We would love for you to share your involvement in our game, and attendance at DDD Perth.
+If you're feeling extra proud, why not share your game with the world? 
 
 Our tags are:
 
 -   LinkedIn [@shecodesaustralia](https://www.linkedin.com/company/shecodesaustralia/)
 -   Instagram [@shecodesaus](https://www.instagram.com/shecodesaus/)
+  
+<p align="start">
+<img src=../step_2/test_plain_cupcake.svg width="20">
+</p>
 
-And DDD Perth are on LinkedIn [@DDDPerth](https://www.linkedin.com/company/ddd-perth)
-
-# Don't stop!
+### Don't stop!
 
 But your coding journey doesn’t have to stop here - JavaScript is an immensely powerful coding language and there are dozens of ways you could customise or improve your game.
 
 Try out some of our suggestions below or add your own coding flair.
 
-## Style it baby
+### Style it baby!
 
 If you already understand a little HTML & CSS, you can add some of your own styling, or even a tagline with your name to your game so that everyone who sees it knows who the creator was! You could also add some additional animation to the 'smash' (clicking on the cupcake) with some kind of explosion or graphic.
 
-## Next Level
+### Next Level Challenges
 
 Why stop at 10 seconds? You could create multiple levels with variations each time. For example, you might increase the speed each round so that it becomes harder and harder. You could set a 'minimum score' that the user needs to beat to pass the level!
 
-## Variable Scoring
+### Variable Scoring
 
 You might have noticed that there are different cupcakes that display - you could randomise which cupcake shows each time, and give the different cupcakes a different number of points each. You could also introduce decoys - maybe you lose points if you accidentally click a different gem instead of a cupcake!
 
-However you customise your game, we hope you've enjoyed learning with She Codes. You can view [our growing list of free tutorials here](https://shecodes.com.au/tutorials) if you'd like to try your hand at something else.
+### Keep Experimenting!
 
-Good luck, coder!
+The possibilities are endless. Whether you add new features or simply polish the look and feel of your game, every tweak is a chance to learn something new.
+
+If you've enjoyed learning with She Codes and you're hungry for more tutorials, check out [our growing list of free tutorials here](https://shecodes.com.au/tutorials).
+
+**Good luck, coder!**
+
+<p align="start">
+<img src=../step_2/shecodes_cupcake.svg width="20">
+<img src=../step_2/shecodes_cupcake.svg width="20">
+<img src=../step_2/shecodes_cupcake.svg width="20">
+</p>
+
+Keep exploring, keep coding, and most importantly, have fun smashing those cupcakes!
