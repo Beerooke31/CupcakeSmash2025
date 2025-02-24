@@ -41,7 +41,7 @@ function popUp() {
 
 You should now be able to see the cupcake appearing and disappearing when you start the game.
 
-Try changing the value of `time` and see what happens (remember, this value is in milliseconds, so 400 milliseconds is 0.4 seconds).
+Try changing the value of `time` and see what happens (remember, this value is in milliseconds, so 500 milliseconds is 0.5 seconds).
 
 <p align="start">
 <img src=../step_2/plain_cupcake.svg width="20">
