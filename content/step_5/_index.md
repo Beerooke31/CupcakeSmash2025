@@ -2,9 +2,9 @@
 # 5. Can't Catch Me!"
 ---
 
-## Popping the cupcake Back Down - Timing is Everything!
+## Popping the Cupcake Back Down - Timing is Everything!
 
-Now that we've got our cupcake jumping out of its hole, we also need to get the cupcake to pop back down again to make smashing it a little trickier! We do this by simply removing the `up` class we added earlier to our `popUp` function.
+Now that we've got our cupcake jumping out of its hole, we need to get the cupcake to pop back down again to make smashing it a little trickier! We do this by simply removing the `up` class we added earlier to our `popUp` function.
 
 ```diff
 function popUp() {
@@ -30,14 +30,14 @@ function popUp() {
 + }, time)
 }
 ```
+
 <p align="start">
 <img src=../step_2/shecodes_cupcake.svg width="20">
 </p>
 
-> **Introducing a Delay:** 
-> 
-> By using the `setTimeout` function we can tell JavaScript, "Hey, wait a little while - say, 500 milliseconds (that's half a second!) - and then hide the cupcake. This delay is stored in a variable called `time`.
-
+> **Introducing a Delay:**
+>
+> By using the `setTimeout` function we can tell JavaScript, "Hey, wait a little bit - say, 500 milliseconds (that's half a second!) - then hide the cupcake. This delay is stored in a variable called `time`.
 
 You should now be able to see the cupcake appearing and disappearing when you start the game.
 
@@ -50,6 +50,7 @@ Try changing the value of `time` and see what happens (remember, this value is i
 
 > **Tip:** If your code doesn't work as expected, check your brackets! In JavaScript brackets should always have partners. This goes for parentheses(), square brackets[] and braces{} - just count the left ones and make sure they all have a buddy.
 
+<br/>
 <p align="start">
 <img src=../step_2/shecodes_cupcake.svg width="20">
 <img src=../step_2/shecodes_cupcake.svg width="20">

@@ -6,7 +6,7 @@
 
 We're building a game called Cupcake Smash using a programming language called Javascript.
 
-To build Cupcake Smash, we're using an online tool called CodePen, which is a platform that makes it easy to build and experiment with HTML, CSS and JavaScript, without needing to download or set up any special software.
+To build Cupcake Smash, we're using an online tool called CodePen, which is a platform that makes it easy to build and experiment with HTML, CSS, and JavaScript without needing to download or set up any special software.
 
 In case you haven't done our HTML and CSS workshop, HTML defines the content (like buttons and text), CSS styles it (like colours and fonts), and Javascript makes it interactive (like responding to clicks and keeping scores).
 

@@ -2,7 +2,7 @@
 # 7. Keeping Score
 ---
 
-# Keeping Score - Count those Cupcakes!
+## Keeping Score - Count those Cupcakes!
 
 Now that you're smashing cupcakes like a pro, it's time to keep track of your epic cupcake-smashing score! Every time you whack a cupcake, you earn a point. Let’s add a scoring system that updates in real-time on your scoreboard.
 
@@ -28,6 +28,8 @@ function smash(cupcake) {
 
 > Can you see the `smash` function? In this function, every time a cupcake is hit, we add 1 to the score.
 
+<br/>
+
 We're also going to tell our `scoreBoard` variable to show `score` whenever it is increased. To update `scoreBoard` we will use the [`textContent`](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent) property.
 
 ```diff
@@ -39,6 +41,7 @@ function smash(cupcake) {
 +	scoreBoard.textContent = score;
 }
 ```
+
 <p align="start">
 <img src=../step_2/plain_cupcake.svg width="20">
 <img src=../step_2/plain_cupcake.svg width="20">

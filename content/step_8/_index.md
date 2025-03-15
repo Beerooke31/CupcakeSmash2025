@@ -4,7 +4,7 @@
 
 ## Let's mix it up - randomising the cupcakes!
 
-Great job on getting your game running so far! Now it's time to add a twist ... we obviously don't want the cupcake to always pop up in the first hole because that would make for a pretty boring (and easy) game! Instead we'll create a new function to randomly pick which hole the cupcake will appear in.
+Great job on getting your game running so far! Now it's time to add a twist ... We obviously don't want the cupcake to always pop up in the first hole because that would make for a pretty boring (and easy) game! Instead we'll create a new function to randomly pick which hole the cupcake will appear in.
 
 At the moment our `popUp` function looks like this:
 
@@ -38,11 +38,11 @@ Remember right back at the start when we created our `holes` variable? We wrote 
 
 `let holes = document.querySelectorAll('.hole');`
 
-In that step we're telling JavaScript "Hey, find me all the cupcake holes on the page and put them into a neat list!" This list is what programmers call an **array**. It might look something like this: 
+In that step we're telling JavaScript "Hey, find me all the cupcake holes on the page and put them into a neat list!" This list is what programmers call an **array**. It might look something like this:
 
 `holes = [hole 0, hole 1, hole 2, hole 3, ... hole 8]`.
 
-Yes you are seeing this correctly, in JavaScript, **arrays start counting at 0**. So, the`[0]`in`holes[0]` is what tells JavaScript to just get the first cupcake hole on the page.
+Yes, you are seeing this correctly! In JavaScript, **arrays start counting at 0**. So, the `[0]` in `holes[0]` is what tells JavaScript to just get the first cupcake hole on the page.
 
 <p align="start">
 <img src=../step_2/plain_cupcake2.svg width="20">
@@ -50,7 +50,7 @@ Yes you are seeing this correctly, in JavaScript, **arrays start counting at 0**
 
 > It might seem a little strange at first, I know usually we start counting at 1. But think of it like this: if the cupcake holes were secret hideouts, the code '0' is the secret agent name for the first one!
 
-> To recap, our `holes` variable type is called an '[array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)' and looks something like this: `holes = [hole 0, hole 1, hole 2, ... hole 8]`. We can reference any item in our array using the index position (what position it is in in the list). And remember, in arrays the first position is always '0' (not 1). So if we reference `holes[1]` it will actually access the second cupcake hole, not the first!
+> To recap, our `holes` variable type is called an '[array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)' and looks something like this: `holes = [hole 0, hole 1, hole 2, ... hole 8]`. We can reference any item in our array using the index (what position it is in in the list). And remember, in arrays the first position is always '0' (not 1). So if we reference `holes[1]` it will actually access the second cupcake hole, not the first!
 
 <p align="start">
 <img src=../step_2/test_plain_cupcake.svg width="20">
@@ -69,6 +69,16 @@ function randomHole(holes) {
     return hole;
 }
 ```
+
+> **What is Math.random()?**
+> Good question, `Math.random()` produces a number between 0 (inclusive) and 1 (exclusive). So multiplying the random number by (max - min) and then adding min shifts the random value to lie between your desired minimum and maximum values.
+
+<p align="start">
+<img src=../step_2/shecodes_cupcake.svg width="20">
+</p>
+
+> **What is Math.round()?**
+> To convert the decimal into an integer, we use `Math.round()`. This rounds to the nearest whole number, which is acceptable for this scenario. There are alternative methods if you need more [rounding](https://javascript.info/number#rounding) precision.
 
 We then need to update our `popUp` function to run our new `randomHole` function each time the cupcake pops up, instead of always referring to the first hole:
 
@@ -91,6 +101,8 @@ function popUp() {
 ```
 
 Now when you hit **Start**, you should see your cupcakes popping up everywhere!
+
+<br/>
 
 <p align="start">
 <img src=../step_2/shecodes_cupcake.svg width="20">
@@ -149,11 +161,14 @@ function smash(cupcake) {
     scoreBoard.textContent = score;
 }
 ```
+
 <p align="start">
 <img src=../step_2/plain_cupcake.svg width="20">
 </p>
 
 > **Learning in Action:** You're using arrays and random number generation - key concepts in JavaScript!
+>
+> <br/>
 
 <p align="start">
 <img src=../step_2/shecodes_cupcake.svg width="20">
