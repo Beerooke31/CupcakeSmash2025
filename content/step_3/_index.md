@@ -1,11 +1,8 @@
 ---
-title = "3. cupcakes are Forever"
-weight = 3
-chapter = true
-pre = ""
+#Step 3
 ---
 
-# Popping Up the Cupcakes
+## Popping Up the Cupcakes
 
 Next we want to create a function to pop our cupcakes up out of the holes. There's CSS styling already set up for most of this so the cupcakes will appear all shiny, we just need to add a class to one of our holes to make the cupcakes appear. This will take the first hole from the list we saved earlier, and add the class of `up` to it (which will then do some CSS magic). Add the following to the bottom of your JavaScript code:
 
@@ -26,7 +23,7 @@ Now instead of adding a comment in the console log at the start of the game, we 
 
 **Reminder**
 
-> Like in step 2, note the different colours and +/- indicators in the code example below. This is instructing you to remove the `console.log` line, and add the `popUp` line, but without the `+` and `-` symbols. If you're not sure what to do, the completed code up to this point is provided at the end of this page.
+> Like in step 2, note the different colours and +/- indicators in the code example below. This is instructing you to remove the `console.log` line and add the `popUp` line, but without the `+` and `-` symbols. If you're not sure what to do, the completed code up to this point is provided at the end of this page.
 
 ```diff
 function startGame() {

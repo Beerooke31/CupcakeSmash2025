@@ -39,6 +39,8 @@ function popUp() {
 >
 > By using the `setTimeout` function we can tell JavaScript, "Hey, wait a little bit - say, 500 milliseconds (that's half a second!) - then hide the cupcake. This delay is stored in a variable called `time`.
 
+<br/>
+
 You should now be able to see the cupcake appearing and disappearing when you start the game.
 
 Try changing the value of `time` and see what happens (remember, this value is in milliseconds, so 500 milliseconds is 0.5 seconds).
