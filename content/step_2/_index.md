@@ -10,7 +10,7 @@ To start off, we're going to grab some of the elements on the page and save them
 >
 > An **element** is a specific aspect of the page. For example, the heading text and start button are both elements. Elements are defined using HTML - feel free to unfold the HTML section on CodePen and have a peek! The screenshot below shows where to click and drag to unfold the HTML editor:
 
-![](images/expand_editor.png)
+![](images/expand_editor.jpg)
 
 > **Variable Alert!**
 >
@@ -106,7 +106,7 @@ function startGame() {
 
 Let's test it! In the bottom left corner of your Codepen, click on **Console** to open the console. Try clicking the **Start** button - you should see your message appear!
 
-![](images/console.png)
+![](images/console.jpg)
 
 After a certain about of time has passed, we then want to end the game, so let's write a function for that too:
 

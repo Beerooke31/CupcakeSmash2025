@@ -14,7 +14,7 @@ A preview of the end result is below:
 
 <!-- We need an updated gif once the Template has been changed -->
 
-![](images/full_game.gif)
+![Cupcake Smash](CupcakeSmash.gif)
 
 Ready to get started? Awesome! Proceed to Step 1.
 
